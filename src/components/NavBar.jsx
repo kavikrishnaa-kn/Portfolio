@@ -3,7 +3,7 @@
 const Nav = () => {
     return(
         <>
-    <div className="h-[8vh] w-screen flex flex-row bg-[#16423C] rounded-md gap-[50%]">
+    <div className="h-[8vh] w-screen flex flex-row bg-[#133a35] rounded-md gap-[50%]">
         <div className="w-1/2 h-auto bg-[ #73605B] flex items-center justify-center ">
         <div className="w-auto h-auto flex items-center justify-center font-bold text-gray-50 text-[150%]">
                 KAVI KRISHNAA K N
