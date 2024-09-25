@@ -1,21 +1,21 @@
 import Profilepic from '../assets/img/profile.jpg';
-const Photo = () => {
-    return(
-    <>
-    <div className="w-screen h-[85vh] flex">
-        <div>
-        <div className="h-[92vh] w-[40vw] flex items-center justify-end" >
-      <img src= {Profilepic} alt="pic" className="h-[50vh] w-[50vh] flex rounded-[50vh] shadow-slate-500 shadow-2xl drop-shadow-2xl" ></img>
-    </div>
+import Skill from '../components/Skill';
+const Profile = () => {
+  return (
+    <div className="w-screen h-screen flex">
+      <div className="h-[92vh] w-[40vw] flex items-center justify-end">
+        <img src={Profilepic} alt="Profile" className="h-[50vh] w-[50vh] rounded-full shadow-blue-900 shadow-2xl" />
+      </div>
+      <div className="h-[92vh] w-[60vw] flex flex-col items-center justify-center gap-8">
+        <div className="text-2xl">Hello Everyone</div>
+        <div className="text-2xl">It's Me</div>
+        <div className="text-5xl">Kavi Krishnaa K N</div>
+        <div className="flex items-center justify-center">
+        <Skill></Skill>
         </div>
-      <div className="h-[92vh] w-[60vw] flex flex-col items-center justify-center gap-4">
-      <div className="text-2xl font-">Hello Everyone</div>
-      <div className="text-2xl">It's Me</div>
-      <div className="text-5xl">Kavi Krishnaa K N</div>
       </div>
-      </div>
-    
-    </>
-    )
-}
-export default Photo;
+    </div>
+  );
+};
+
+export default Profile;
